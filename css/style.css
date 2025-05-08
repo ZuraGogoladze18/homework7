@@ -1,0 +1,151 @@
+.container{
+    width: min(100%, 1440px);
+    margin: auto;
+    
+   border: 1px solid blue;
+    background-color: red;
+    padding-top: 138px;
+}
+/* header  */
+header{
+ background-color: #372D23;
+ padding: 32px 88px;
+ display: flex;
+ justify-content: space-between;
+ position: fixed;
+ max-width: inherit;
+ width: inherit;
+ left: 50%;
+ transform: translateX(-50%);
+ top: 0%;
+ z-index: 1;
+}
+.img1{
+ width: 72px;
+ height: 72px;
+}
+.header-li{
+    display: inline;
+    width: 501px;
+height: 32px;
+}
+.middle-li{
+    margin: 48px;
+}
+.middle-l{
+    margin-right: 48px;
+}
+.fa-bag-shopping{
+color: #FCC21B;
+font-size: 30px;
+
+}
+.fa-bag-shopping:hover{
+    font-size: 40px;
+    color: blue;
+}
+.nav-a{
+  font-family: Inter;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0%;
+
+}
+.nav-a:hover{
+    font-size: 30px;
+    color: green;
+}
+.inactive{
+   color:#FCC21B
+}
+.active{
+color: #ED6C30;
+}
+/* section  */
+.section1{
+ position: relative;
+ height:640px ;
+}
+.back-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.art{
+    position: absolute;
+    width: 50%;
+height: 208px;
+background-color: #FCC21B;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 10px 10px 4px 0px #00000080 inset;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+
+}
+h1{
+box-shadow: 6px 2px 4px 0px #372D23;
+    font-family: Inter;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: 0%;
+color: #FFFFFF;
+}
+/* section2  */
+.section2{
+    background-color: #FFE18A;
+    padding-top: 96px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 104px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin: auto;
+}
+.art-img{
+    object-fit: cover;
+    width: 100%;
+height: 400px;
+}
+/* footer  */
+footer{
+background-color: #372D23;
+display: flex;
+justify-content: space-between;
+padding-inline: 80px;
+padding-block: 32px;
+}
+.foot-a{
+    font-family: Inter;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+color: #FCC21B;
+}
+.foot-a:hover{
+    font-size: 20px;
+    color: yellowgreen;
+}
+.footer-a{
+    color:#FCC21B
+}
+.footer-a:hover{
+    font-size: 50px;
+    color: aquamarine;
+}
+.footer-ul{
+    display: flex;
+}
+.aa{
+    margin-inline: 32px;
+}
+.aaa{
+    margin-left: 32px;
+}
